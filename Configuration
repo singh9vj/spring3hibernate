@@ -1,0 +1,21 @@
+git_url         = https://github.com/singh9vj/spring3hibernate.git
+git_branch      = master
+project_dir     = .
+code_build      = true
+unit_test       = true
+code_coverage   = true
+code_quality    = true
+code_bugscan    = true
+sonar_scan      = true
+sonar_url       = http://opstree.sonar.com
+sonar_user      = admin
+sonar_password  = adminpass
+snyk_scan       = false
+snyk_package    = synk@latest
+snyk_token_name = opstree-api-token
+publish_s3      = false
+s3_profile_name = test
+upload_path     = opstree/build/prod/
+upload_region   = us-east-1
+source_file     = *.war
+
